@@ -1,0 +1,33 @@
+<form class="form form_billing-details" action="#">
+    <label class="form__label">
+        <div class="form__input-name form_billing-details__input-name">Card Number:</div>
+        <input class="form__input" type="number" placeholder="0000 0000 0000 0000"> </label>
+    <div class="flex flex_between">
+        <label class="form__label form_billing-details__label_expiration-month">
+            <div class="form__input-name form_billing-details__input-name">Expiration Date:</div>
+            <select name="#" id="#" class="form__select">
+                <option value="#">01</option>
+                <option value="#">01</option>
+                <option value="#">01</option>
+            </select>  
+          </label>
+        <label class="form__label form_billing-details__label_expiration-year"> 
+            <select name="#" id="#" class="form__select">
+                <option value="#">18</option>
+                <option value="#">18</option>
+                <option value="#">18</option>
+            </select> 
+          </label>
+    </div>
+    <div class="flex flex_between">
+        <label class="form__label form_billing-details__label_cvv">
+            <div class="form__input-name form_billing-details__input-name">Security Code (CVV):</div>
+            <input class="form__input" type="number" placeholder="000"> </label>
+        <div class="form_billing-details__cvv-help-wrapper"> <img src="design/img/ui/card.png" alt="" class="form_billing-details__cvv-help-img"> <span>What is this?</span></div>
+    </div>
+    <div class="form_billing-details__cards-info">
+        <img class="form_billing-details__cards-type" src="design/img/ui/sidebar/cards.svg" alt="#">
+        <img class="form_billing-details__cards-security" src="design/img/ui/sidebar/mcafee.png" alt="#">
+    </div>
+    <button class="btn form_billing-details__btn">PAY NOW</button>
+</form>

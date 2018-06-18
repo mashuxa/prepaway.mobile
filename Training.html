@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="design/img/ui/favicon.ico" />
+    <title>Training</title>
+    <link rel="stylesheet" href="design/css/reset.css">
+    <link rel="stylesheet" href="design/css/fonts.css">
+    <link rel="stylesheet" href="design/css/mobile.css">
+    <link rel="stylesheet" href="design/css/slick.css">
+    <link rel="stylesheet" href="design/css/slick-theme.css">
+    <script defer src="design/js/templateLoader.js"></script>
+    <script defer src="design/js/jquery-3.3.1.min.js"></script>
+    <script defer src="design/js/slick.js"></script>
+    <script defer src="design/js/mobile-menu.js"></script>
+    <script defer src="design/js/mobile.js"></script>
+</head> 
+<body>
+    <templ src="design/components/header/header.html"></templ>
+    <div class="container">
+        <main class="main">
+            <templ src="design/components/training/training.html"></templ>
+            <templ src="design/components/mobile-menu/mobile-menu.html"></templ>
+            <article>
+                <h1 class="slider_curriculum__header">Curriculum For This Course</h1>
+                <templ src="design/components/slider/slider_curriculum/slider_curriculum.html"></templ>
+                <templ src="design/components/table/table_training-video/table_training-video.html"></templ>
+                <templ src="design/components/table/table_training-files/table_training-files.html"></templ>
+            </article>
+            <article class="about-course hidden-text">
+                <h1 class="about-course__header">About This Course</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud ause exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auter aut irure <a href="#">exams</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur...<span class="btn_read-more">read more</span></p>
+            </article>
+            <templ src="design/components/student-feedback/student-feedback.html"></templ>
+            <templ src="design/components/comments-area/comments-area.html"></templ>
+        </main>
+        <aside class="sidebar">
+            <article>
+                <h2>Similar Courses</h2>
+                <templ src="design/components/training-course/training-course.html"></templ>
+            </article>
+        </aside>
+    </div>
+    <templ src="design/components/footer/footer.html"></templ>
+</body> 
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1476" height="61" viewBox="0 0 1476 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44c244;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="vendors-bg.svg" class="cls-1" d="M0,0H1460l16,31.456L1460,61H0V0Z"/>
+</svg>

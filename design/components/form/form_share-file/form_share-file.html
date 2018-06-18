@@ -1,0 +1,48 @@
+<form action="#" class="form form_share-file">
+    <label class="form__label"> 
+                <div class="form__input-name">Exam vendor (e.g. Microsoft):<sup>*</sup></div> 
+            <select name="#" id="#" class="form__select">
+                <option value="#" selected disabled>Select a Vendor</option>
+                <option value="#">18</option>
+                <option value="#">18</option>
+            </select> 
+          </label>
+    <label class="form__label">
+        <div class="form__input-name">Supplier of questions (e.g. PracticeTest):<sup>*</sup></div>
+        <input class="form__input" type="email" placeholder="Supplier of questions"> </label>
+    <label class="form__label"> 
+                <div class="form__input-name">Exam code / number:<sup>*</sup></div> 
+            <select name="#" id="#" class="form__select">
+                <option value="#" selected disabled>Select a exam code</option>
+                <option value="#">18</option>
+                <option value="#">18</option>
+            </select> 
+          </label>
+    <label class="form__label">
+        <div class="form__input-name">Your name:<sup>*</sup></div>
+        <input class="form__input" type="text" placeholder="Your name"> </label>
+    <label class="form__label">
+        <div class="form__input-name">Your e-mail:<sup>*</sup></div>
+        <input class="form__input" type="email" placeholder="Your e-mail"> </label>
+    <label class="form__label">
+        <div class="form__input-name">File version or date (e.g. 2018-04-01):</div>
+        <input class="form__input" type="text" placeholder="File version or date"> </label>
+    <label class="form__label">
+        <div class="form__input-name">Number of questions:</div>
+        <input class="form__input" type="number" placeholder="Number of questions"> </label>
+    <label class="form__label">
+        <div class="form__input-name">File (max size: 60 Mb):<sup>*</sup></div>
+        <input style="display: none;" id="fileInput" type="file"> 
+           <div class="flex flex_between">
+               <label for="fileInput" class="btn">Choose File</label>
+    <span class="form_share-file__chosen-file-info">No file chosen</span>
+    </div>
+    </label>
+    <label class="form__label form__label_verification">
+        <div>
+            <div class="form__input-name">Verification:<sup>*</sup></div>
+            <input class="form__input" type="text"> </div>
+        <div class="form__verification-img-wrapper"> <img class="form__verification-img" src="design/img/content/verification-img.jpg" alt="ASD"> </div>
+    </label>
+    <button class="btn form_share-file__btn" type="submit">SEND FILE</button>
+</form>

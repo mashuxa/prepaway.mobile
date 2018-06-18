@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #31526b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="triangle-bottom.svg" class="cls-1" d="M10,2L5,9,0,2H10Z" transform="translate(0 -2)"/>
+</svg>

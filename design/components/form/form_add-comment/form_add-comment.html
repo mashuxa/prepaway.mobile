@@ -1,0 +1,42 @@
+<form class="form form_add-comment" action="#">
+    <h2 class="form__header">Add Comments</h2>
+    <label class="form__label">
+        <div class="form__input-name">Name:<sup>*</sup></div>
+        <input class="form__input" type="text" placeholder="Exam. John"> </label>
+    <label class="form__label">
+        <div class="form__input-name">E-mail:<sup>*</sup></div>
+        <input class="form__input" type="email" placeholder="E-mail"> </label>
+    <label class="form__label">
+        <div class="form__input-name">Name:<sup>*</sup></div>
+        <textarea class="form__textarea" name="#" id="#" placeholder="Write here..." rows="12"></textarea>
+    </label>
+    <label class="form__label form__label_verification">
+        <div>
+            <div class="form__input-name">Verification:<sup>*</sup></div>
+            <input class="form__input" type="text"> </div>
+        <div class="form__verification-img-wrapper"> <img class="form__verification-img" src="design/img/content/verification-img.jpg" alt="ASD"> </div>
+    </label> <small>Type the characters from the picture</small>
+    <label class="form__label form__label_rate">
+        <div class="form__input-name">Rate File:<sup>*</sup></div>
+        <label class="form__like">
+            <input type="radio" name="form__rate-file" id="like" class="form__input_like" checked> <i class="icon-like"></i>Like </label>
+        <label class="form__dislike">
+            <input type="radio" name="form__rate-file" id="dislike" class="form__input_dislike"> <i class="icon-dislike"></i>Dislike </label>
+    </label>
+    <label class="form__label form__label_rate">
+        <div class="form__input-name">Rate File:<sup>*</sup></div>
+        <div class="form_add-comment__star-rating">
+            <label class="form_add-comment__star-rate" for="form_add-comment__star-rate-1">
+                <input type="radio" name="form_add-comment__rate-file" value="1" id="form_add-comment__star-rate-1"> <i class="fa-star-o icon-star-rating icon-star-rating_empty"></i> <i class="fa-star icon-star-rating"></i> </label>
+            <label class="form_add-comment__star-rate" for="form_add-comment__star-rate-2">
+                <input type="radio" name="form_add-comment__rate-file" value="2" id="form_add-comment__star-rate-2"> <i class="fa-star-o icon-star-rating icon-star-rating_empty"></i> <i class="fa-star icon-star-rating"></i> </label>
+            <label class="form_add-comment__star-rate" for="form_add-comment__star-rate-3">
+                <input type="radio" name="form_add-comment__rate-file" value="3" id="form_add-comment__star-rate-3"> <i class="fa-star-o icon-star-rating icon-star-rating_empty"></i> <i class="fa-star icon-star-rating"></i> </label>
+            <label class="form_add-comment__star-rate" for="form_add-comment__star-rate-4">
+                <input type="radio" name="form_add-comment__rate-file" value="4" id="form_add-comment__star-rate-4"> <i class="fa-star-o icon-star-rating icon-star-rating_empty"></i> <i class="fa-star icon-star-rating"></i> </label>
+            <label class="form_add-comment__star-rate" for="form_add-comment__star-rate-5">
+                <input type="radio" name="form_add-comment__rate-file" value="5" id="form_add-comment__star-rate-5"> <i class="fa-star-o icon-star-rating icon-star-rating_empty"></i> <i class="fa-star icon-star-rating"></i> </label>
+        </div>
+    </label>
+    <button class="btn form__btn" type="submit">SUBMIT</button>
+</form>
